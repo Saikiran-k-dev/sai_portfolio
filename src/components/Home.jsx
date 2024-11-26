@@ -8,10 +8,10 @@ const Home = () => {
         <h1 className={styles.title}>Hi, I'm Saikiran K</h1>
         <p className={styles.subtitle}>A Passionate MERN Stack Developer</p>
         <div className={styles.buttons}>
-          <a href="/projects" className={styles.btn}>
+          <a href="https://saikirankdev.netlify.app/projects" className={styles.btn}>
             View My Work
           </a>
-          <a href="/contact" className={styles.btnSecondary}>
+          <a href="https://saikirankdev.netlify.app/contact" className={styles.btnSecondary}>
             Contact Me
           </a>
         </div>

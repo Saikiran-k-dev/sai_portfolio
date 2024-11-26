@@ -63,6 +63,12 @@ const projects = [
     githubLink: "https://github.com/Saikiran-k-dev/caluculator-react",
   },
   {
+    title: "Portfolio",
+    description: "Just my portfolio using react",
+    technologies: ["React.js"],
+    githubLink: "https://github.com/Saikiran-k-dev/sai_portfolio",
+  },
+  {
     title: "Slack Command Automation",
     description:
       "Custom Slack commands built using Python Flask to automate team workflows.",

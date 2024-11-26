@@ -21,63 +21,63 @@ const About = () => {
           <div className={styles.skill}>
             <img
               src="/logos/React_logo.png"
-              alt="MongoDB"
+              alt="ReactJS"
               className={styles.skillLogo}
             />
           </div>
           <div className={styles.skill}>
             <img
               src="logos/Redux_logo.png"
-              alt="Express.js"
+              alt="Redux"
               className={styles.skillLogo}
             />
           </div>
           <div className={styles.skill}>
             <img
               src="logos/Html_logo.webp"
-              alt="React.js"
+              alt="HTML"
               className={styles.skillLogo}
             />
           </div>
           <div className={styles.skill}>
             <img
               src="logos/css_logo.png"
-              alt="Node.js"
+              alt="CSS"
               className={styles.skillLogo}
             />
           </div>
           <div className={styles.skill}>
             <img
               src="logos/js_logo.png"
-              alt="Python"
+              alt="Javascript"
               className={styles.skillLogo}
             />
           </div>
           <div className={styles.skill}>
             <img
               src="logos/node_logo.png"
-              alt="Java"
+              alt="NodeJs"
               className={styles.skillLogo}
             />
           </div>
           <div className={styles.skill}>
             <img
               src="logos/express_logo.png"
-              alt="Java"
+              alt="ExpressJs"
               className={styles.skillLogo}
             />
           </div>
           <div className={styles.skill}>
             <img
               src="logos/python_logo.png"
-              alt="Java"
+              alt="Python"
               className={styles.skillLogo}
             />
           </div>
           <div className={styles.skill}>
             <img
               src="logos/mongo_logo.png"
-              alt="Java"
+              alt="MongoDB"
               className={styles.skillLogo}
             />
           </div>
