@@ -1,0 +1,118 @@
+.aboutContainer {
+    background: linear-gradient(135deg, #4a90e2, #9013fe);
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .skillsSection,
+  .experienceSection {
+    margin-top: 30px;
+  }
+  
+  .subtitle {
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .skillsGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    text-align: center;
+  }
+  
+  .skillLogo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .skill p {
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .experienceCard {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experienceCard h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .experienceCard p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .experienceCard ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    .aboutContainer {
+      padding: 15px;
+    }
+  
+    .title {
+      font-size: 2rem;
+    }
+  
+    .description {
+      font-size: 1rem;
+    }
+  
+    .subtitle {
+      font-size: 1.5rem;
+    }
+  
+    .skillsGrid {
+      gap: 15px;
+    }
+  
+    .skill {
+      width: 100px;
+    }
+  
+    .skillLogo {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  
