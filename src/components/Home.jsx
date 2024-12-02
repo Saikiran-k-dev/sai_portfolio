@@ -1,22 +1,35 @@
 import React from "react";
 import styles from "../css/home.module.css";
+import About from "./About";
+import Projects from "./Projects";
+import Contact from "./Contact";
 
 const Home = () => {
   return (
-    <section className={styles.hero}>
+    <div>
       <div className={styles.container}>
-        <h1 className={styles.title}>Hi, I'm Saikiran K</h1>
-        <p className={styles.subtitle}>A Passionate MERN Stack Developer</p>
-        <div className={styles.buttons}>
-          <a href="https://saikirankdev.netlify.app/projects" className={styles.btn}>
-            View My Work
-          </a>
-          <a href="https://saikirankdev.netlify.app/contact" className={styles.btnSecondary}>
-            Contact Me
-          </a>
+        <div className={styles.leftSection}>
+          <div className={styles.leftContainer}>
+          <div >
+            <h1 className={styles.hiTitle}>HI THERE!</h1>
+          </div>
+          <div className={styles.intro}>
+            <h1 className={styles.hiTitle}>I'M</h1><h1> SAI</h1>
+          </div>
+          <div>
+            <h6>MERn developer/Python developer</h6>
+          </div>
+          <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias maiores dolor cupiditate nostrum voluptas facilis quisquam vitae dolore suscipit debitis ipsam earum repudiandae, eos dolorem unde dignissimos. Consequuntur, doloribus quibusdam!</p>
+          </div>
+          </div>
         </div>
+        <div className={styles.rightSection}></div>
       </div>
-    </section>
+      <About />
+      <Projects />
+      <Contact />
+    </div>
   );
 };
 
